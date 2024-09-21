@@ -950,6 +950,9 @@ input#checkboxLabel:checked ~ .box span {
 .mr-1 {
   margin-right: 0.25rem;
 }
+.ml-1 {
+  margin-left: 0.25rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
 }
