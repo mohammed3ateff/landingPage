@@ -39,6 +39,16 @@
     transform: translate3d(0, 0, 0);
   }
 }
+@media (min-width: 959px) {
+  .sm-none {
+    display: none !important;
+  }
+}
+@media (max-width: 959px) {
+  .lg-none {
+    display: none !important;
+  }
+}
 
 .almarai {
   font-family: "Almarai", sans-serif;
@@ -46,10 +56,12 @@
 .line-through {
   text-decoration-line: line-through;
 }
-.h-15 {
+.h-17 {
   height: 50px;
 }
-
+.w-17 {
+  width: 50px;
+}
 .fadeInDown {
   animation-name: fadeInDown;
 }
@@ -874,6 +886,9 @@ input#checkboxLabel:checked ~ .box span {
 }
 .mr-8 {
   margin-right: 2rem;
+}
+.ml-8 {
+  margin-left: 2rem;
 }
 .ml-6 {
   margin-left: 1.5rem;
