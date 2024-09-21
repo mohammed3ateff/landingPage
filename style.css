@@ -902,6 +902,9 @@ input#checkboxLabel:checked ~ .box span {
 .mr-3 {
   margin-right: 0.75rem;
 }
+.ml-3 {
+  margin-left: 0.75rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -2119,6 +2122,9 @@ input#checkboxLabel:checked ~ .box span {
 
   .xl\:mr-3 {
     margin-right: 0.75rem;
+  }
+  .xl\:ml-3 {
+    margin-left: 0.75rem;
   }
 
   .xl\:mt-0 {
